@@ -26,7 +26,7 @@ public class IndexController {
 	}
 	
 	private String randomName() {
-		String[] names = { "Peter", "Paul", "Mary" };
+		String[] names = { "Peter", "Paul", "Mary", "Mikel" };
 		int idx = new Random().nextInt(names.length);
 		String rName = names[idx];
 		logger.info(">>> Hostname: " + getHostname() + ", randomName(): " + rName);
