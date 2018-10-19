@@ -26,7 +26,7 @@ private static final Logger logger = LoggerFactory.getLogger(IndexController.cla
 	}
 	
 	private String randomGreeting() {
-		String[] items = { "Hi", "Hello", "Ahoi", "Ei gude" };
+		String[] items = { "Hi", "Hello", "Ahoi", "Ei gude", "Grüezi" };
 		int idx = new Random().nextInt(items.length);
 		String item = items[idx];
 		logger.info(">>> Hostname: " + getHostname() + ", randomGreeting(): " + item);
