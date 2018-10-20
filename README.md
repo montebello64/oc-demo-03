@@ -1,6 +1,6 @@
 # oc-demo-03
 
-oc new-project oc-demo-03
+oc new-project oc-demo-03  
 oc project oc-demo-03
 
 oc new-app \  
